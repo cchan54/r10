@@ -1,8 +1,8 @@
 import React from "react";
-import { Text, ScrollView, View } from "react-native";
+import { Text, ScrollView, View, Button } from "react-native";
 import styles from "./styles";
 
-const About = () => {
+const About = ({ nav }) => {
   return (
     <ScrollView>
       <Text>
@@ -14,15 +14,6 @@ const About = () => {
         Vancouver, BC.
       </Text>
       <Text>Code of Conduct</Text>
-      {/* {data.map(item => {
-        return (
-          // <Conducts
-          //   key={key++}
-          //   title={item.title}
-          //   description={item.description}
-          // />
-        );
-      })} */}
     </ScrollView>
   );
 };

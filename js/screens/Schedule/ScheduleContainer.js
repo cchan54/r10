@@ -3,16 +3,16 @@ import gql from "graphql-tag";
 import React, { Component } from "react";
 import { Text, ScrollView, Image, View, ActivityIndicator } from "react-native";
 import styles from "./styles";
-import About from "./About";
+import Schedule from "./Schedule";
 
-class AboutContainer extends Component {
+class ScheduleContainer extends Component {
   render() {
     return (
       <View>
-        <About />
+        <Text>Hello</Text>
       </View>
     );
   }
 }
 
-export default AboutContainer;
+export default ScheduleContainer;
