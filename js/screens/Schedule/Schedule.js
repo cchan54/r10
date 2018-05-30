@@ -3,7 +3,7 @@ import { Text, ScrollView, View } from "react-native";
 import styles from "./styles";
 
 const Schedule = () => {
-  return <ScrollView />;
+  return;
 };
 
 export default Schedule;

@@ -24,18 +24,18 @@ export default createBottomTabNavigator(
     Schedule: scheduleStack
   },
   {
-    // navigationOptions: ({ navigation }) => ({
-    //   tabBarIcon: ({ focused, tintColor }) => {
-    //     const { routeName } = navigation.state;
-    //     let iconName;
-    //     if (routeName === "About") {
-    //       iconName = `ios-information-circle${focused ? "" : "-outline"}`;
-    //     } else if (routeName === "Schedule") {
-    //       iconName = `ios-home${focused ? "" : "-outline"}`;
-    //     }
-    //     return <Ionicons name={iconName} size={25} color={tintColor} />;
-    //   }
-    // }),
+    navigationOptions: ({ navigation }) => ({
+      tabBarIcon: ({ focused, tintColor }) => {
+        const { routeName } = navigation.state;
+        let iconName;
+        // if (routeName === "About") {
+        //   iconName = `ios-information-circle${focused ? "" : "-outline"}`;
+        // } else if (routeName === "Schedule") {
+        //   iconName = `ios-home${focused ? "" : "-outline"}`;
+        // }
+        // return <Ionicons name={iconName} size={25} color={tintColor} />;
+      }
+    }),
 
     tabBarOptions: {
       activeTintColor: "#FFFFFF",
